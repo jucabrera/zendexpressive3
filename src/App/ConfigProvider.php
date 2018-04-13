@@ -37,6 +37,8 @@ class ConfigProvider
             ],
             'factories'  => [
                 Handler\HomePageHandler::class => Handler\HomePageHandlerFactory::class,
+                Handler\PhpCommunitiesHandler::class => Handler\PhpCommunitiesHandlerFactory::class,
+                Handler\PhpCommunitiesCreateHandler::class => Handler\PhpCommunitiesCreateHandlerFactory::class
             ],
         ];
     }

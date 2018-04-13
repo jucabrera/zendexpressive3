@@ -58,7 +58,8 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/App/",
-            "Series\\": "src/Series/src/"
+            "Series\\": "src/Series/src/",
+            "PhpCommunities\\": "src/PhpCommunities/src/"
         }
     },
     "autoload-dev": {

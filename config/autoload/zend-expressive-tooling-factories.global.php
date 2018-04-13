@@ -13,6 +13,10 @@ return [
     'dependencies' => [
         'factories' => [
             App\Handler\HelloHandler::class => App\Handler\HelloHandlerFactory::class,
+            App\Handler\PhpCommunitiesCreateHandler::class => App\Handler\PhpCommunitiesCreateHandlerFactory::class,
+            App\Handler\PhpCommunitiesHandler::class => App\Handler\PhpCommunitiesHandlerFactory::class,
+            App\XClacksOverheadMiddleware::class => App\XClacksOverheadMiddlewareFactory::class,
+            PhpCommunities\Handler\PhpCommunitiesHandler::class => PhpCommunities\Handler\PhpCommunitiesHandlerFactory::class,
             Series\Handler\GenreHandler::class => Series\Handler\GenreHandlerFactory::class,
         ],
     ],

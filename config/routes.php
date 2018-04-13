@@ -36,5 +36,7 @@ return function (Application $app, MiddlewareFactory $factory, ContainerInterfac
     $app->get('/', App\Handler\HomePageHandler::class, 'home');
     $app->get('/api/ping', App\Handler\PingHandler::class, 'api.ping');
     $app->get('/hello', App\Handler\HelloHandler::class, 'hello');
+    $app->get('/php-communities', App\Handler\PhpCommunitiesHandler::class, 'phpcommunities');
+    $app->post('/php-communities', App\Handler\PhpCommunitiesCreateHandler::class, 'phpcommunities.create');
     
 };
